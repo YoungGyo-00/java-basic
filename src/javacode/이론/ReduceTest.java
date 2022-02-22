@@ -1,3 +1,5 @@
+package javacode.이론;
+
 import java.util.Arrays;
 import java.util.function.BinaryOperator;
 
