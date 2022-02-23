@@ -1,6 +1,4 @@
-package javacode.활용.스트림;
-
-import javacode.활용.스트림.TravelCustomer;
+package 자바.이론.스트림;
 
 import java.util.ArrayList;
 import java.util.List;

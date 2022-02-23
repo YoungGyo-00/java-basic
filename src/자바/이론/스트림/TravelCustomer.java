@@ -1,4 +1,4 @@
-package javacode.활용.스트림;
+package 자바.이론.스트림;
 
 public class TravelCustomer {
     private int age;

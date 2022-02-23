@@ -1,4 +1,4 @@
-package javacode.이론;
+package 자바.이론.reduce함수;
 
 import java.util.Arrays;
 import java.util.function.BinaryOperator;
