@@ -1,4 +1,4 @@
-package 자바.이론.입출력스트림;
+package 자바.이론.바이트단위입출력스트림;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

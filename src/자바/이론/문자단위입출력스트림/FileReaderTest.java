@@ -1,18 +1,17 @@
-package 자바.이론.입출력스트림;
+package 자바.이론.문자단위입출력스트림;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 
-public class FileInputStreamTest1 {
+public class FileReaderTest {
     public static void main(String[] args) {
 
-        try(FileInputStream fis = new FileInputStream("input.txt")){
+        try(FileReader fr = new FileReader("reader.txt")){
             int i;
-            while ( (i = fis.read()) != -1) {
-                System.out.println((char)i);
+            while( (i = fr.read()) != -1){
+                System.out.print((char)i);
             }
-            System.out.println("end");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
