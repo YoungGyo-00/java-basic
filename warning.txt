@@ -1,4 +1,0 @@
-2월 23, 2022 5:03:23 오후 자바.이론.오류로그.MyLogger log
-WARNING: test
-2월 23, 2022 5:03:23 오후 자바.이론.오류로그.MyLogger log
-SEVERE: test
